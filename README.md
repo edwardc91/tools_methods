@@ -20,5 +20,4 @@ a *.mailmap* file on root of the repository.
 $ cd some-big-repo.git
 $ git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
-
-* Use 
+* Use `git push` to update references on the remote repo
